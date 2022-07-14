@@ -24,6 +24,7 @@ namespace desafio2
 
     public class Carro : Veiculo
     {
+
         public int OcupacaoMaxima { get; set; }
     }
 
