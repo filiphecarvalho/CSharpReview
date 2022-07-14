@@ -3,19 +3,23 @@ namespace desafio2
 
     public enum EnumTipo
     {
-        CARRO = 1,
-        CAMINHAO
+        TERRESTRE,
+        AQUATICO = 1,
+        AERONAUTICO = 2,
+        OUTROS = 3
     }
 
-    public class Veiculo
+    public abstract class Veiculo
     {
         public int Codigo { get; set; }
 
-        public string Descricao { get; set; }
+        public string? Descricao { get; set; }
 
         public EnumTipo Tipo { get; set; }
 
-        public string Placa { get; set; }
+        public string? Placa { get; set; }
+
+        public string? Chassi { get; set; }
     }
 
     public class Carro : Veiculo
@@ -25,49 +29,31 @@ namespace desafio2
 
     public class Caminhao : Veiculo
     {
-        public string Chassi { get; set; }
-
         public int PesoEmToneladas { get; set; }
     }
 
-    public class ServicoDeCaminhao
+    public class ServicoDeVeiculo<T> where T : Veiculo
     {
-        public void InsiraCaminhao(Veiculo carro)
+     
+        public void InsiraVeiculo(T veiculo)
         {
 
         }
 
-        public Veiculo ObtenhaCaminhao(int codigo)
+        public T ObtenhaVeiculo(int codigo)
         {
             return null;
         }
 
-        public List<Veiculo> ObtenhaListaDeCaminhao()
+        public List<T> ObtenhaListaDeVeiculos()
         {
             return null;
 
         }
 
-        public int ObtenhaQuantidadeDeCaminhoes()
+        public int ObtenhaQuantidadeDeVeiculos(List<T> lista)
         {
-            return 0;
-        }
-    }
-    public class ServicoDeCarro
-    {
-        public void InsiraCarro(Veiculo carro)
-        {
-            return;
-        }
-
-        public Veiculo ObtenhaCarro(int codigo)
-        {
-            return null;
-        }
-
-        public List<Veiculo> ObtenhaListaDeCarros()
-        {
-            return null;
+            return lista.Count();
         }
     }
 }

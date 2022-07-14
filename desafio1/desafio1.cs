@@ -44,6 +44,21 @@ namespace desafio1
             contatos.Add(contato);
         }
 
+         public void AlterarContato(Contato contato)
+        {
+            // Śó permide add contato se for do mesmo cliente e não tiver mesmo telefone e grau de parentesco...
+            var cont = contatos.FirstOrDefault(
+                  c => c.Id == contato.Id && 
+                  c.Telefone == contato.Telefone || c.TipoRelacao == contato.TipoRelacao);
+
+            if (cont != null)
+            {
+                throw new Exception("Contato já existe");
+            }
+
+            contatos.Add(contato);
+        }
+
         public Int32 Id { get; set; }
         public string? Nome { get; set; }
 
