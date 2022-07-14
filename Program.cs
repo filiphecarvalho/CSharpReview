@@ -1,4 +1,4 @@
-﻿using desafio1;
+﻿using desafios;
 
 internal class Program
 {
