@@ -1,0 +1,15 @@
+/home/inspetoria/dev/CSharpReview/bin/Debug/net6.0/CSharpReview
+/home/inspetoria/dev/CSharpReview/bin/Debug/net6.0/CSharpReview.deps.json
+/home/inspetoria/dev/CSharpReview/bin/Debug/net6.0/CSharpReview.runtimeconfig.json
+/home/inspetoria/dev/CSharpReview/bin/Debug/net6.0/CSharpReview.dll
+/home/inspetoria/dev/CSharpReview/bin/Debug/net6.0/CSharpReview.pdb
+/home/inspetoria/dev/CSharpReview/obj/Debug/net6.0/CSharpReview.csproj.AssemblyReference.cache
+/home/inspetoria/dev/CSharpReview/obj/Debug/net6.0/CSharpReview.GeneratedMSBuildEditorConfig.editorconfig
+/home/inspetoria/dev/CSharpReview/obj/Debug/net6.0/CSharpReview.AssemblyInfoInputs.cache
+/home/inspetoria/dev/CSharpReview/obj/Debug/net6.0/CSharpReview.AssemblyInfo.cs
+/home/inspetoria/dev/CSharpReview/obj/Debug/net6.0/CSharpReview.csproj.CoreCompileInputs.cache
+/home/inspetoria/dev/CSharpReview/obj/Debug/net6.0/CSharpReview.dll
+/home/inspetoria/dev/CSharpReview/obj/Debug/net6.0/refint/CSharpReview.dll
+/home/inspetoria/dev/CSharpReview/obj/Debug/net6.0/CSharpReview.pdb
+/home/inspetoria/dev/CSharpReview/obj/Debug/net6.0/CSharpReview.genruntimeconfig.cache
+/home/inspetoria/dev/CSharpReview/obj/Debug/net6.0/ref/CSharpReview.dll
