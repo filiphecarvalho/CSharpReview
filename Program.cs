@@ -128,6 +128,7 @@ internal class Program
         }
 
         CasoFuncional();
+        
 
         // Descomentar para testes...
         //CasoNaoFuncional
